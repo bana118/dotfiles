@@ -1,0 +1,5 @@
+alias ls='ls --color=auto'
+alias ..='cd ..'
+alias mv='mv -i'
+alias cp='cp -i'
+
