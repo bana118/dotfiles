@@ -1,8 +1,6 @@
 #!/bin/sh
-ln -sf ~/dotfiles/.vimrc ~/.vimrc
-ln -sf ~/dotfiles/colors ~/.vim
-ln -sf ~/dotfiles/ftdetect ~/.vim
-ln -sf ~/dotfiles/indent ~/.vim
-ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
-ln -sf ~/dotfiles/.wgetrc ~/.wgetrc
-ln -sf ~/dotfiles/Brewfile ~/Brewfile
+ln -sf ~/dotfiles/wsl/.vimrc ~/.vimrc
+ln -sf ~/dotfiles/wsl/.bash_profile ~/.bash_profile
+ln -sf ~/dotfiles/wsl/.bashrc ~/.bashrc
+ln -sf ~/dotfiles/wsl/.alias ~/.alias
+ln -sf ~/dotfiles/wsl/.gitconfig ~/.gitconfig
