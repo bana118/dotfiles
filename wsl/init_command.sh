@@ -8,3 +8,4 @@ sh ~/.dotfiles/wsl/link.sh
 source ~/.bash_profile
 source ~/.bashrc
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
