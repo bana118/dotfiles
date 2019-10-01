@@ -1,3 +1,4 @@
+source ~/.bashrc
 export PYENV_ROOT=$HOME/.pyenv
 export PATH=$PYENV_ROOT/bin:$PATH
 export PATH=$PATH:$HOME/.config/composer/vendor/bin
