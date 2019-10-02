@@ -12,3 +12,7 @@
     ch = checkout
     wdiff = diff --word-diff
     
+[merge]
+	ff = false
+[pull]
+	ff = only
