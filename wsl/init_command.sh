@@ -14,3 +14,5 @@ npm config set user 0
 npm config set unsafe-perm true
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+source ~/.bash_profile
+source ~/.bashrc

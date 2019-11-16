@@ -1,8 +1,6 @@
 [user]
 	email = bana.titech@gmail.com
 	name = bana
-[credential]
-    helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
 [alias]
     graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
     gr = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an]     %Cgreen%d%Creset %s\" --all --date=short
