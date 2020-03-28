@@ -11,7 +11,7 @@
     cm = commit
     ch = checkout
     wdiff = diff --word-diff
-    
+    acm = !git add -A && git commit -m
 [merge]
 	ff = false
 [pull]
