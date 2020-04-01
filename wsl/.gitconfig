@@ -12,7 +12,7 @@
     ch = checkout
     wdiff = diff --word-diff
     acm = !git add -A && git commit -m
-    bdel = !"f(){ git branch --delete $1 && git push --delete origin $1;}f"
+    bdel = !"f(){ git branch --delete $1 && git push --delete origin $1;};f"
 [merge]
 	ff = false
 [pull]
