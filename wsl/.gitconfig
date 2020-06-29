@@ -14,7 +14,7 @@
     acm = !git add -A && git commit -m
     bdel = !"f(){ git branch --delete $1 && git push --delete origin $1;};f"
     bcleanl = !"git branch | grep -v master | xargs git branch --delete"
-    bcleanr = !"git branch -r | grep origin | grep -v master | sed -e s/^.*origin\\///g | xargs git push -d origin"
+    bcleanr = !"git branch -r | grep origin | grep -v master | sed -e 's/^.*origin\\///g' | xargs git push -d origin"
 [merge]
 	ff = false
 [pull]
