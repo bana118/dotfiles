@@ -1,4 +1,3 @@
-export PATH="~/.config/composer/vendor/bin:$PATH"
 #for iterm color
 export CLICOLOR=1
 export LSCOLORS="GxFxCxDxBxegedabagaced"
