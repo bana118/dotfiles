@@ -1,3 +1,5 @@
+source $HOME/.git-completion.bash
+
 #for iterm color
 export CLICOLOR=1
 export LSCOLORS="GxFxCxDxBxegedabagaced"
