@@ -1,4 +1,4 @@
-source $HOME/.git-completion.bash
+source $HOME/git-completion.bash
 
 #for iterm color
 export CLICOLOR=1
