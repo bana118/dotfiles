@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 sed -i -e 's%http://.*.ubuntu.com%http://ftp.jaist.ac.jp/pub/Linux%g' /etc/apt/sources.list 
 apt update
 apt upgrade -y
