@@ -1,9 +1,0 @@
-pyenv install --list
-pyenv install 3.7.4
-sudo groupadd developer
-sudo gpasswd --add USERNAME developer
-sudo visudo
-
-Defaults exempt_group="developer"
-
-pyenv virtualenv 3.7.4 std
