@@ -173,8 +173,12 @@ function parse_git_dirty {
         fi
 }
 
-#export PS1="\w\[$red\]parse_git_branch\[$white\]> "
 export PS1="\[$green\]\w\[$red\]\`parse_git_branch\`\[$white\] > "
 
 # For GUI
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+
+# Java
+# Update JDK_HOME to match Java version
+export JDK_HOME = "/usr/lib/jvm/java-11-openjdk-amd64"
+export PATH=$JDK_HOME:$PATH
