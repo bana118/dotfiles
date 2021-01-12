@@ -175,3 +175,6 @@ function parse_git_dirty {
 
 #export PS1="\w\[$red\]parse_git_branch\[$white\]> "
 export PS1="\[$green\]\w\[$red\]\`parse_git_branch\`\[$white\] > "
+
+# For GUI
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
