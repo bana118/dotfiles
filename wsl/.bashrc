@@ -180,5 +180,5 @@ export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
 
 # Java
 # Update JDK_HOME to match Java version
-export JDK_HOME = "/usr/lib/jvm/java-11-openjdk-amd64"
+export JDK_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 export PATH=$JDK_HOME:$PATH
