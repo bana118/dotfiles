@@ -6,6 +6,8 @@ apt install -y vim-nox git git-lfs default-jre default-jdk php php-zip php-xml p
 git config --global --add merge.ff false
 git config --global --add pull.ff only
 bash ~/dotfiles/wsl/link.sh
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh -s -- -y
+source "$HOME/.cargo/env"
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
 source ~/.bash_profile
 source ~/.bashrc
