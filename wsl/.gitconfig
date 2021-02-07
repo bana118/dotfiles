@@ -1,5 +1,6 @@
 [core]
 	editor = code --wait
+	fileMode = false
 [user]
 	email = bana.titech@gmail.com
 	name = bana118
