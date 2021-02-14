@@ -184,4 +184,4 @@ export JDK_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 export PATH=$JDK_HOME:$PATH
 source "$HOME/.cargo/env"
 
-source .alias
+source ~/.alias
