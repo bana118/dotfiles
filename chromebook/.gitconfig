@@ -1,0 +1,35 @@
+[core]
+	editor = code --wait
+	filemode = false
+[user]
+	email = bana.titech@gmail.com
+	name = bana118
+[credential]
+    helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
+[alias]
+    graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
+    gr = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
+    st = status
+    stt = status -uno
+    cm = commit
+    ch = checkout
+    wdiff = diff --word-diff
+    acm = !git add -A && git commit -m
+    bdel = !"f(){ git branch --delete $1 && git push --delete origin $1;};f"
+    ctag = !"f(){ git tag $1 && git push origin $1;};f"
+    dtag = !"f(){ git tag -d $1 && git push origin --delete $1;};f"
+[merge]
+	ff = false
+	ff = false
+	ff = false
+	ff = false
+[pull]
+	ff = only
+	ff = only
+	ff = only
+	ff = only
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
